@@ -87,7 +87,7 @@ const DishPriceCalculator = () => {
     <Box>
       <Paper elevation={3} sx={{ p: { xs: 3, sm: 4 }, borderRadius: 2, maxWidth: '700px', mx: 'auto' }}>
         <Typography variant="h4" gutterBottom align="center" sx={{ fontWeight: 'bold' }}>
-          Calculadora Para Precificar Itens
+          Precifiq - Tecnologia para precificar com inteligência.
         </Typography>
         <Typography variant="subtitle1" gutterBottom align="center" color="text.secondary" sx={{ mb: 4 }}>
           Defina o preço ideal do seu item incluindo todos os custos necessários.
@@ -138,8 +138,7 @@ const DishPriceCalculator = () => {
             Como funciona
           </Typography>
           <Typography variant="body1" color="text.secondary" sx={{ fontFamily: 'monospace', fontSize: '0.9rem' }}>
-            Preço = (Custo / (1 - %Lucro - %Taxas)) + Entrega
-          </Typography>
+O usuário informa o custo de produção do item. Em seguida, define a margem de lucro desejada, a porcentagem de taxas do marketplace (ex.: iFood) e a taxa de entrega. O sistema então realiza o cálculo e informa o preço base para precificação do produto, garantindo a margem de lucro correta.          </Typography>
       </Box>
     </Box>
   );

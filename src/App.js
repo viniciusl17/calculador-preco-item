@@ -40,7 +40,7 @@ function App() {
       <AppBar position="static" color="transparent" elevation={0}>
         <Toolbar>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            Calculadora de Preço para Delivery
+            
           </Typography>
           <IconButton sx={{ ml: 1 }} onClick={toggleTheme} color="inherit">
             {isDarkMode ? <Brightness7 /> : <Brightness4 />}
